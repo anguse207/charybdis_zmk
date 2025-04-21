@@ -23,7 +23,7 @@
         x-input-code = <INPUT_REL_X>;
         y-input-code = <INPUT_REL_Y>;
         scale-multiplier = <1>;
-        scale-divisor = <2>;
+        scale-divisor = <3>;
 
         // bindings = <&ib_toggle_layer 7>;
     };
@@ -38,7 +38,7 @@
         x-input-code = <INPUT_REL_X>;
         y-input-code = <INPUT_REL_Y>;
         scale-multiplier = <1>;
-        scale-divisor = <4>;
+        scale-divisor = <5>;
     };
 
     /* input config for mouse scroll mode */
@@ -51,7 +51,7 @@
         x-input-code = <INPUT_REL_MISC>;
         y-input-code = <INPUT_REL_WHEEL>;
         y-invert;
-        bindings = <&ib_wheel_scaler 1 14>;
+        bindings = <&ib_wheel_scaler 1 30>;
     };
 
     /* define a resolution down scaler only for INPUT_REL_WHEEL */
